@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { GoogleGenAI, Modality } from "@google/genai";
-import type { AspectRatio } from '../types';
+import type { AspectRatio } from '../src/types';
 
 if (!process.env.API_KEY) {
   throw new Error("API_KEY environment variable not set");
