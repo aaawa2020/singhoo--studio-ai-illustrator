@@ -1,22 +1,17 @@
 {
-  "name": "singhoo!!-studio-ai-插画师",
+  "name": "singhoo-studio-ai-illustrator",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "description": "An AI drawing tool for singhoo!! studio dedicated to the generation of galgame game illustrations.",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vercel dev"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
     "@google/genai": "^1.27.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@vercel/node": "^3.0.25",
+    "typescript": "^5.3.3",
+    "vercel": "^33.5.5"
   }
 }
